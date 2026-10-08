@@ -1,6 +1,6 @@
 {
   "name": "slova",
-  "main": "src/index.js",
+  "main": "index.js",
   "compatibility_date": "2026-09-01",
   "durable_objects": {
     "bindings": [{ "name": "LOBBY", "class_name": "Lobby" }]
