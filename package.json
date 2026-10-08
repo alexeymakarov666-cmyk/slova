@@ -1,0 +1,14 @@
+{
+  "name": "slova-cloudflare",
+  "version": "0.3.0",
+  "private": true,
+  "description": "Сервер игры «Слова» для Cloudflare Workers",
+  "scripts": {
+    "prepare-src": "node prepare.js",
+    "dev": "wrangler dev",
+    "deploy": "wrangler deploy"
+  },
+  "devDependencies": {
+    "wrangler": "^4.0.0"
+  }
+}
